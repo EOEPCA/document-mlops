@@ -23,3 +23,11 @@ img.centered {
 figure {
   margin-top: 40px !important;
 }
+
+a.anchor {
+  color: var(--md-typeset-color);
+}
+
+a.anchor:hover {
+  color: var(--md-typeset-color);
+}
