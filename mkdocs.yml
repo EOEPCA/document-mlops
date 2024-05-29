@@ -71,6 +71,7 @@ extra_css:
 
 plugins:
   - autorefs
+  - glightbox
   - search
   # - pub-debugger:
   #     console_log:
