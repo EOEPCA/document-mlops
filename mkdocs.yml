@@ -1,6 +1,6 @@
-site_name: EOEPCA Document Template
-site_url: https://eoepca.readthedocs.io/projects/template/en/latest/
-repo_url: https://github.com/EOEPCA/document-template/
+site_name: EOEPCA MLOps
+site_url: https://eoepca.readthedocs.io/projects/mlops/en/latest/
+repo_url: https://github.com/EOEPCA/document-mlops/
 edit_uri: "edit/main/docs/"
 
 nav:
