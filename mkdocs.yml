@@ -80,6 +80,7 @@ plugins:
   - autorefs
   - glightbox
   - search
+  - swagger-ui-tag
   # - pub-debugger:
   #     console_log:
   #       enabled: true
