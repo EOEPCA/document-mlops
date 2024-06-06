@@ -13,6 +13,7 @@ nav:
       - Design:
           - design/architecture.md
           - design/requirements.md
+          - design/use-cases.md
       - Usage:
           - usage/tutorials.md
           - usage/howto-guides.md
