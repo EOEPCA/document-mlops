@@ -12,84 +12,84 @@ A global overview of the use cases for the MLOps components from a user point of
   <figcaption>Use Case diagram of MLOps BB</figcaption>
 </figure>
 
-## Definitions
+## User stories
 
-### Train model
+### AI Model evaluation and release management 
 
-- **Actors:** ML Developer, Model Trainer.
-- **Description:** As an _ML developer_, I want to be able to train my machine learning model with the _Model Trainer_.
+This use case covers all aspects of training AI models, utilizing popular frameworks, handling model assets, versioning, managing model training runs and their performance metrics and models registering for discovery and reuse.
 
-#### Use popular ML frameworks
+#### Create model
 
-- **Actors:** ML Developer, Model Trainer.
-- **Description:** As an _ML Developer_, I want to use popular machine learning frameworks for training models with the _Model Trainer_.
+- **Actors**: ML Developer, ML Trainer.
+- **Descritpion**: As an _ML Developer_, I want to create a new project to train an AI model regardless of the AI framework used.
+
+#### Use popular ML framewoks
+
+- **Actors**: ML Developer, ML Trainer.
+- **Descritpion**: As an _ML Developer_, I want to use popular popular machine learning frameworks for training models with the Model Trainer.
 
 #### Use ONNX model representation format
 
-- **Actors:** ML Developer, Model Trainer.
-- **Description:** As an _ML Developer_, I want to use the ONNX model representation format for training models with the _Model Trainer_.
+- **Actors**: ML Developer, ML Trainer.
+- **Descritpion**: As an _ML Developer_, I want to use the ONNX (Open Neural Network Exchange) format for training models with the Model Trainer.
 
-#### Log model training with metrics
+#### Evaluate AI model training
 
-- **Actors:** ML Developer, Model Trainer.
-- **Description:** As an _ML Developer_, I want to logs metrics from my model training runs with the _Model Trainer_.
+- **Actors**: ML Developper, ML trainer.
+- **Description**: As an _ML developer_, I want to record my model's accuracy metrics to keep the most efficient version in production with the Model Trainer.
 
-### Publish assets in platform storage
+#### Display runs metrics
 
-- **Actors:** ML Developer, Model Trainer.
-- **Description:** As an _ML Developer_, I want to publish my model assets in the platform storage with the _Model Trainer_.
+- **Actors**: ML Developper, MLOps UI.
+- **Description**: As an _ML developer_, I want to see performance metrics collected during experiments associated to model with MLOps UI.
 
-### Model Release (versioning)
 
-- **Actors:** ML Developer, Model Trainer.
-- **Description:** As an _ML Developer_, I want to create releases/versions of my model with the _Model Trainer_.
+#### View Model training history
 
-### Register models in Resource Discovery BB
+- **Actors**: ML Developper, ML trainer, MLOps UI.
+- **Description**: As an _ML developer_, I want to have visual access to the training metrics history of my AI model, and his datasets version used with MLops UI.
 
-- **Actors:** ML Developer, Model Trainer.
-- **Description:** As an _ML Developer_, I want to register my models with the _Model Trainer_ in the **Resource Discovery Building Block** for easy discovery and reuse.
+#### Share Model:
 
-### Use Workspace for assets
+- **Actors**: ML Developer, MLOps UI.
+- **Description**: As an _ML Developer_, I want to share my model with others collaborator with MLOps UI.
 
-- **Actors:** ML Developer, Model Trainer.
-- **Description:** As an _ML Developer_, I want to use my workspace (**Workspace Building Block**) with the _Model Trainer_ for my assets.
+- **Actors**: ML Developer, ML trainer, MLOps UI. 
+- **Description**: As an _ML Developer_, I want to visually the historical training metrics of the models  that i have permission to view, so that i can monitor performance trends and make data-driven decisions.
 
-### View model training history
+#### Model Release
 
-- **Actors:** ML Developer, MLOps UI.
-- **Description:** As an _ML Developer_, I want to view the history of my model training runs with the _MLOps UI_.
+- **Actors**: ML Developer, ML trainer.
+- **Description**: As an _ML developer_, I would like to be able to download ONNX (Open Neural Network Exchange) version of the model that I need.
 
-### View model training run metrics
+#### Register Models in Resource Discovery BB
 
-- **Actors:** ML Developer, MLOps UI.
-- **Description:** As an _ML Developer_, I want to view metrics from my model training runs with the _MLOps UI_.
+- **Actors**: ML Developer, ML trainer.
+- **Description**: As an _ML developer_, I want to register my models with the Model Trainer in the Resource Discovery Building Block for easy discovery and reuse.
 
-### Assess/evaluate model training performance
+### Dataset management
 
-- **Actors:** ML Developer, MLOps UI.
-- **Description:** As an _ML Developer_, I want to evaluate the performance of my trained model with the _MLOps UI_ by viewing the model training runs metrics.
+This use case focuses on efficiently storing, accessing, managing, versioning, and registering datasets to ensure they are easily discoverable and reusable, promoting streamlined workflows and data consistency across projects.
 
-### Manage model training history
+#### Publish Assets
 
-- **Actors:** ML Developer, Model Trainer, MLOps UI.
-- **Description:** As an _ML Developer_, I want to manage the history of my models training runs, including renaming, editing metadata, or deleting/archiving past runs, with the _MLOps UI_.
+- **Actors**: Data scientist, Training Data Manager.
+- **Description**: As a _Data scientist_, I want to store a large quantity (several GB) of data in all formats (**images**, **sounds**, **text**, **videos**) to train AI models. 
 
-### Access datasets
+#### Dataset iteration
 
-- **Actors:** ML Developer, Data Scientist, MLOps UI.
-- **Description:** As an _ML Developer_ or _Data scientist_, I want to access my available datasets, with the _MLOps UI_.
+- **Actors**: Data scientist, Training Data Manager.
+- **Description**: As a _Data scientist_, I want to have several versions of my dataset, so that i can iterate according to my needs.
 
-### Manage datasets
+#### Share Dataset
 
-- **Actors:** Data Scientist, Training Data Manager.
-- **Description:** As a _Data scientist_, I want to manage datasets, including creating, updating, and deleting, with the _Training Data Manager_.
+- **Actors**: Data scientist, Training Data Manager.
+- **Description**: As a _Data scientist_, I want to share my dataset with **Resource Discovery** or others standard services as assets.
 
-### Datasets versioning
+#### Browse Dataset
 
-- **Actors:** Data Scientist, Training Data Manager.
-- **Description:** As a _Data scientist_, I want to version datasets to keep track of changes and maintain different versions over time with the _Training Data Manager_.
+- **Actors**: Data scientist, MLOps UI.
+- **Description**: As a _Data scientist_, I want to have access to available dataset to which i have permissions, and to be able to contribute.
 
-### Register datasets in Resource Discovery BB
-
-- **Actors:** Data Scientist, Training Data Manager.
-- **Description:**  As a _Data scientist_, I want to register datasets in the **Resource Discovery Building Block** for easy discovery and reuse with the _Training Data Manager_.
+- **Actors**: ML Developer, MLOps UI
+- **Description**: As an _ML developer_, I want to use available dataset to train my model.
