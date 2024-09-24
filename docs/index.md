@@ -25,7 +25,9 @@ This building block is implemented with **SharingHub**, a service that enable th
 repositories through an integrated STAC catalog answering STAC API. Each repository conforms to the
 definition of a STAC item, with some STAC extensions (notably ML Model).
 The content of this catalog is generated on the fly from the information stored in the _GitLab_
-and _MLflow_ projects and is depending on the authenticated user and his/her access rights.
+projects and is depending on the authenticated user and his/her access rights. It is also integrated
+with an MLflow instance that can serve as a remote tracking server for model experiments, as well
+as expose a model registry.
 
 ## Capabilities
 
@@ -33,5 +35,5 @@ The MLOps BB orchestrates the training of ML models in a variety of popular mach
 frameworks, maintains a history of training runs with associated metrics used to assess model
 performance, and maintains the associated training data.
 
-The [Design](./design/architecture.md) section can give
-a good overview of the features expected for this Building Block.
+The [Design](./design/architecture.md) section can give a good overview of the features
+expected for this Building Block.
