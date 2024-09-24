@@ -11,13 +11,15 @@ nav:
           - design/architecture.md
           - design/requirements.md
           - design/use-cases.md
+          - Scenarios:
+              - design/scenarios/model-training.md
       - Administration:
           - Deployment Guide:
-            - admin/deployment-guide/intro.md
-            - Components:
-              - admin/deployment-guide/components/gitlab.md
-              - admin/deployment-guide/components/sharinghub.md
-              - admin/deployment-guide/components/mlflow-sharinghub.md
+              - admin/deployment-guide/intro.md
+              - Components:
+                  - admin/deployment-guide/components/gitlab.md
+                  - admin/deployment-guide/components/sharinghub.md
+                  - admin/deployment-guide/components/mlflow-sharinghub.md
           - admin/configuration.md
           - admin/maintenance.md
       - Usage:
