@@ -4,14 +4,12 @@ The documentation for the MLOps building block is organized as follows...
 
 * **Introduction** :material-map-marker-radius:<br>
   Introduction to the BB - including summary of purpose and capabilities.
-* [**Getting Started** :material-link:](./getting-started/quick-start.md)<br>
-  Quick start instructions - including installation, e.g. of a local instance.
 * [**Design** :material-link:](./design/architecture.md)<br>
   Description of the BB design - including its subcomponent architecture and interfaces.
+* [**Administration** :material-link:](./admin/deployment-guide/intro.md)<br>
+  Deployment guide, configuration and maintenance of the BB.
 * [**Usage** :material-link:](./usage/tutorials.md)<br>
   Tutorials, How-to guides, etc. to communicate usage of the BB.
-* [**Administration** :material-link:](./admin/configuration.md)<br>
-  Configuration and maintenance of the BB.
 * [**API** :material-link:](./api/endpoint-specification.md)<br>
   Details of APIs provided by the BB - including endpoints, usage descriptions and examples etc.
 
