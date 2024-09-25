@@ -74,7 +74,8 @@ Them create a config file called `provider.yaml`:
 
 ```yaml
 name: openid_connect
-label: keycloak
+label: EOEPCA
+icon: "https://eoepca.readthedocs.io/img/favicon.ico"
 args:
   name: openid_connect
   scope: ["openid", "profile", "email"]
