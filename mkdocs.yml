@@ -13,6 +13,7 @@ nav:
           - design/use-cases.md
           - Scenarios:
               - design/scenarios/model-training.md
+              - design/scenarios/flood-example.md
       - Administration:
           - Deployment Guide:
               - admin/deployment-guide/intro.md
