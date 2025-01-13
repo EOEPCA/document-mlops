@@ -1,6 +1,6 @@
 # Model Training
 
-**Practical Case**: Developing an AI Model for training Wine model
+**Scenario**: Developing an AI Model
 
 ## Context
 
