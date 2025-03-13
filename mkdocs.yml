@@ -25,7 +25,8 @@ nav:
           - admin/maintenance.md
       - Usage:
           - usage/tutorials.md
-          - usage/howto-guides.md
+          - How-to:
+              - usage/howto/dataset_with_workspace.md
       - API:
           - api/endpoint-specification.md
           - api/usage.md

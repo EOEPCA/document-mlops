@@ -3,7 +3,7 @@
 A part of the SharingHub server API is dedicated to SharingHub UI. Most routes are not supposed to be called directly,
 with the exception of the STAC API that can be requested from your favorite client.
 
-For more information, check-out our tutorials [Tutorials](../usage/tutorials.md) and [How-to guides](../usage/howto-guides.md).
+For more information, check-out our tutorials Tutorials and How-to guides.
 
 ## STAC API
 
