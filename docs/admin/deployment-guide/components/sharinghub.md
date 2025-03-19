@@ -62,7 +62,7 @@ spec:
   source:
     repoURL: https://github.com/csgroup-oss/sharinghub.git
     path: deploy/helm/sharinghub
-    targetRevision: main
+    targetRevision: "0.4.0"
     helm:
       valuesObject:
         config: |-
@@ -76,8 +76,6 @@ spec:
           stac:
             projects:
               cache-timeout: 30
-            search:
-              cache-timeout: 20
             extensions:
               eo: https://stac-extensions.github.io/eo/v1.1.0/schema.json
               label: https://stac-extensions.github.io/label/v1.0.1/schema.json

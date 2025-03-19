@@ -42,7 +42,7 @@ spec:
   source:
     repoURL: https://github.com/csgroup-oss/mlflow-sharinghub.git
     path: deploy/helm/mlflow-sharinghub
-    targetRevision: main
+    targetRevision: "0.2.0"
     helm:
       valuesObject:
         image:
