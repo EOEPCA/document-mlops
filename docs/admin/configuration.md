@@ -213,8 +213,12 @@ use DVC. It is disabled by default.
 Example:
 
 ```yaml
+services:
+  store:
+    url: https://sharinghub.example.com/api/store
+    mode: http
+
 s3:
-  enable: true
   bucket: <bucket>
   region: <bucket-region>
   endpoint: https://<s3-endpoint>
