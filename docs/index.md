@@ -35,3 +35,10 @@ performance, and maintains the associated training data.
 
 The [Design](./design/architecture.md) section can give a good overview of the features
 expected for this Building Block.
+
+## Resources
+
+* [:material-folder-cog: MLOps Templates](https://github.com/EOEPCA/mlops-templates/):
+  project templates for ML models and datasets.
+* [:bulb: Flood Model](https://github.com/EOEPCA/flood-model): demonstration ML model.
+* [:bulb: Sen1floods11 Dataset](https://github.com/EOEPCA/Sen1Floods11-Dataset/): demonstration dataset.
